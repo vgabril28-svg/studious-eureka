@@ -1,25 +1,25 @@
 {
   "active": false,
-  "hostname": "rdpfree-7",
-  "os": "Microsoft Windows Server 2025 Datacenter",
-  "os_build": "10.0.26100",
+  "hostname": "rdpfree-8",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
     "ram_gb": 16.0,
-    "disk_free_gb": 28.3,
-    "cpu_threads": 4
+    "cpu_threads": 4,
+    "disk_free_gb": 82.1
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-14T20:55:18Z",
-  "expires_at": "2026-10-15T02:50:18Z",
+  "started_at": "2026-10-14T20:58:42Z",
+  "expires_at": "2026-10-15T02:53:42Z",
   "duration_menit": 355,
-  "run_id": "38636056360",
+  "run_id": "38636544745",
   "run_attempt": "1",
-  "run_number": "7",
-  "run_url": "https://github.com/vgabril28-svg/studious-eureka/actions/runs/38636056360",
+  "run_number": "8",
+  "run_url": "https://github.com/vgabril28-svg/studious-eureka/actions/runs/38636544745",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,15 +39,13 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
-    "tailscale": {
-      "note": "Isi secret TAILSCALE_AUTH_KEY terlebih dahulu.",
+    "portmap": {
       "status": "failed",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
-    }
+      "note": "Secret PORTMAP_OVPN_CONFIG belum diisi.",
+      "host": "",
+      "port": 0
+    },
+    "mode": "portmap"
   },
-  "stopped_at": "2026-10-14T20:55:24Z"
+  "stopped_at": "2026-10-14T20:58:48Z"
 }
