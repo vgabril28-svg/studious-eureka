@@ -1,25 +1,25 @@
 {
   "active": false,
-  "hostname": "rdpfree-5",
+  "hostname": "rdpfree-6",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
+    "cpu_threads": 4,
     "ram_gb": 16.0,
-    "disk_free_gb": 80.0,
-    "cpu_threads": 4
+    "disk_free_gb": 81.9
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-14T20:47:05Z",
-  "expires_at": "2026-10-15T02:42:05Z",
+  "started_at": "2026-10-14T20:49:26Z",
+  "expires_at": "2026-10-15T02:44:26Z",
   "duration_menit": 355,
-  "run_id": "38634936188",
+  "run_id": "38635252889",
   "run_attempt": "1",
-  "run_number": "5",
-  "run_url": "https://github.com/vgabril28-svg/studious-eureka/actions/runs/38634936188",
+  "run_number": "6",
+  "run_url": "https://github.com/vgabril28-svg/studious-eureka/actions/runs/38635252889",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -41,13 +41,13 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
       "note": "Isi secret TAILSCALE_AUTH_KEY terlebih dahulu.",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
     }
   },
-  "stopped_at": "2026-10-14T20:47:09Z"
+  "stopped_at": "2026-10-14T20:49:31Z"
 }
