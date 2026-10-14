@@ -1,25 +1,25 @@
 {
   "active": false,
-  "hostname": "rdpfree-11",
+  "hostname": "rdpfree-12",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
     "cpu_threads": 4,
+    "ram_gb": 16.0,
     "disk_free_gb": 82.9
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-14T21:08:59Z",
-  "expires_at": "2026-10-15T03:03:59Z",
+  "started_at": "2026-10-14T21:17:00Z",
+  "expires_at": "2026-10-15T03:12:00Z",
   "duration_menit": 355,
-  "run_id": "38637926114",
+  "run_id": "38638974014",
   "run_attempt": "1",
-  "run_number": "11",
-  "run_url": "https://github.com/vgabril28-svg/studious-eureka/actions/runs/38637926114",
+  "run_number": "12",
+  "run_url": "https://github.com/vgabril28-svg/studious-eureka/actions/runs/38638974014",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,7 +39,6 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
       "note": "Isi secret TAILSCALE_AUTH_KEY terlebih dahulu.",
       "status": "failed",
@@ -47,7 +46,8 @@
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    }
+    },
+    "mode": "tailscale"
   },
-  "stopped_at": "2026-10-14T21:09:04Z"
+  "stopped_at": "2026-10-14T21:17:07Z"
 }
